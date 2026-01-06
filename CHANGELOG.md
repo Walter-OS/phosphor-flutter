@@ -1,3 +1,12 @@
+## 2.1.0+walter.1 (Walter-OS fork, unreleased upstream)
+
+- Flutter 3.44 made `IconData` a `final class`. `PhosphorIconData`,
+  `PhosphorFlatIconData` and `PhosphorDuotoneIconData` are now typedefs of
+  `IconData`, and every generated icon constant is a plain `IconData(...)`.
+- Duotone icons render their foreground glyph only; `PhosphorIcon`'s
+  `duotoneSecondary*` parameters are retained but inert.
+- Requires Flutter >= 3.44.
+
 # CHANGELOG
 
 ## [2.1.0] - 2024/05/10
